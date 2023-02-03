@@ -26,7 +26,7 @@ class Audi extends VolkswagenGroup {
     }
     whatCar = () => console.log(`This is good car model, because this is Audi ${this.model}`);
     engineVersion = () => console.log(`This Audi ${this.model} has engine - ${this.engine}`);
-    horsePower = () => console.log(`Probably, this car is powerful, because has ${this.horsePower}hp`)
+    horsePower = () => console.log(`Probably, this car is powerful, because has ${this.#horsepower}hp`)
 }
 
 class Skoda extends VolkswagenGroup {
